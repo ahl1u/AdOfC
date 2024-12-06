@@ -10,7 +10,7 @@ def preprocess(name):
     return data
 
 def calculate1(data):
-    total = 0
+    total = 0 
 
     for report in data:
         positive = True if report[1] - report[0] > 0 else False

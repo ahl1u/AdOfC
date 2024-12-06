@@ -77,7 +77,7 @@ def calculate2(data):
 def main():
     data = preprocess("input.txt")
     print(calculate1(data))
-    print(calculate2(data))
+    print(calculate2(data)) 
 
 if __name__ == "__main__":
     main()

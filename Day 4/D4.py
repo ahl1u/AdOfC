@@ -54,7 +54,7 @@ def calculate2(data):
                     or bottom_left + middle + top_right == bottom_right + middle + top_left == ref \
                     or top_left + middle + bottom_right == bottom_left + middle + top_right == ref \
                     or bottom_right + middle + top_left == top_right + middle + bottom_left == ref:
-                    
+
                     count+=1
     return count
 
@@ -65,4 +65,4 @@ def main():
     print(calculate2(data))
 
 if __name__ == "__main__":
-    main()
+    main() 

@@ -14,7 +14,7 @@ def calculate1(data):
 
     for line in data:
         i = 3
-        while i < len(line):
+        while i < len(line): 
             if line[i-3:i+1] == ref:
                 i+=1
                 start = i
