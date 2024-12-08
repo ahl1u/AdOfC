@@ -100,7 +100,7 @@ def calculate2(data):
 
                     if r_i not in range(rows) or c_i not in range(cols):
                         flag = False
-                    elif data[r_i][c_i] == '#':
+                    elif data[r_i][c_i] == '#': 
                         r_i,c_i = r_i - dr, c_i - dc
                         index += 1
                 data[r][c] = '.'
